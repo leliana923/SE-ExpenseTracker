@@ -41,16 +41,19 @@ public class ExpenseActivity extends AppCompatActivity {
                     category = "Eating Out";
                 }
                 if (i == 1) {
-                    category = "Car";
-                }
-                if (i == 2) {
                     category = "Clothes";
                 }
+                if (i == 2) {
+                    category = "Food";
+                }
                 if (i == 3) {
-                    category = "House";
+                    category = "Bills";
                 }
                 if (i == 4) {
-                    category = "Transport";
+                    category = "Entertainment";
+                }
+                if (i == 5) {
+                    category = "Others";
                 }
             }
 

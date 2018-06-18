@@ -3,16 +3,18 @@
     <string name="add">+</string>
     <string name="minus">-</string>
     <string-array name="incomeCategory">
-        <item>Income</item>
-        <item>Savings</item>
+        <item>Salary</item>
         <item>Allowance</item>
+        <item>Deposits</item>
+        <item>Others</item>
     </string-array>
     <string-array name="expenseCategory">
         <item>Eating Out</item>
-        <item>Car</item>
         <item>Clothes</item>
-        <item>House</item>
-        <item>Transport</item>
+        <item>Food</item>
+        <item>Bills</item>
+        <item>Entertainment</item>
+        <item>Others</item>
     </string-array>
 
     <string name="currency_prompt">Choose a currency</string>

@@ -38,13 +38,16 @@ public class IncomeActivity extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
                 if (i == 0) {
-                    category = "Income";
+                    category = "Salary";
                 }
                 if (i == 1) {
-                    category = "Savings";
+                    category = "Allowance";
                 }
                 if (i == 2) {
-                    category = "Allowance";
+                    category = "Deposits";
+                }
+                if (i == 3) {
+                    category = "Others";
                 }
             }
 
