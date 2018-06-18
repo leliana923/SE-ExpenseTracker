@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">SE-ExpenseTracker</string>
+    <string name="add">+</string>
+    <string name="minus">-</string>
+    <string-array name="incomeCategory">
+        <item>Income</item>
+        <item>Savings</item>
+        <item>Allowance</item>
+    </string-array>
+    <string-array name="expenseCategory">
+        <item>Eating Out</item>
+        <item>Car</item>
+        <item>Clothes</item>
+        <item>House</item>
+        <item>Transport</item>
+    </string-array>
+
+    <string name="currency_prompt">Choose a currency</string>
+    <string name="Set">Set</string>
+
+    <string-array name="currency_arrays">
+        <item>Albania Lek</item>
+        <item>Argentina Peso</item>
+        <item>Australia Dollar</item>
+        <item>Bahamas Dollar</item>
+        <item>Bulgaria Lev</item>
+        <item>Brazil Real</item>
+        <item>Brunei Darussalam Dollar</item>
+        <item>Cambodia Riel</item>
+        <item>Canada Dollar</item>
+        <item>Chile Peso</item>
+        <item>China Yuan Renminbi</item>
+        <item>Colombia Peso</item>
+        <item>Costa Rica Colon</item>
+        <item>Croatia Kuna</item>
+        <item>Cuba Peso</item>
+        <item>Czech Republic Koruna</item>
+        <item>Denmark Krone</item>
+        <item>Egypt Pound</item>
+        <item>Euro</item>
+        <item>Hong Kong Dollar</item>
+        <item>India Rupee</item>
+        <item>Indonesia Rupiah</item>
+        <item>Japan Yen</item>
+        <item>Korea (South) Won</item>
+        <item>Macedonia Denar</item>
+        <item>Malaysia Ringgit</item>
+        <item>Mauritius Rupee</item>
+        <item>Mexico Peso</item>
+        <item>Nepal Rupee</item>
+        <item>Netherlands Antilles Guilder</item>
+        <item>New Zealand Dollar</item>
+        <item>Nigeria Naira</item>
+        <item>Norway Krone</item>
+        <item>Oman Rial</item>
+        <item>Pakistan Rupee</item>
+        <item>Philippines Piso</item>
+        <item>Qatar Riyal</item>
+        <item>Russia Ruble</item>
+        <item>Saudi Arabia Riyal</item>
+        <item>Singapore Dollar</item>
+        <item>Sri Lanka Rupee</item>
+        <item>Sweden Krona</item>
+        <item>Switzerland Franc</item>
+        <item>Taiwan New Dollar</item>
+        <item>Thailand Baht</item>
+        <item>Turkey Lira</item>
+        <item>United Kingdom Pound</item>
+        <item>United States Dollar</item>
+        <item>Viet Nam Dong</item>
+    </string-array>
+</resources>
