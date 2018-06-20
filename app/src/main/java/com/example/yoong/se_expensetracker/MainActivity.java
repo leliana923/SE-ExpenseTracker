@@ -57,10 +57,16 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         currentDate = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(new Date());
 
         db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "expense log")
-               .allowMainThreadQueries().build();
+               .fallbackToDestructiveMigration().allowMainThreadQueries().build();
 
         List<Entry> entries = db.entryDao().getAllEntries();
         //List<Entry> entries = db.entryDao().getAllByDates(currentDate);
+        try {
+            currency = db.currencyDao().getSelectedCurrency().getCurrency();
+        }
+        catch (NullPointerException e){
+            currency = "RM";
+        };
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new LogViewAdapter(entries);
@@ -122,6 +128,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     protected void onResume() {
         super.onResume();
         List<Entry> entries = db.entryDao().getAllEntries();
+        Currency c = db.currencyDao().getSelectedCurrency();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new LogViewAdapter(entries);
         recyclerView.setAdapter(adapter);

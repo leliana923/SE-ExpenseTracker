@@ -8,11 +8,13 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import static com.example.yoong.se_expensetracker.CustomOnItemSelectedListener.currencySymbol;
+import static com.example.yoong.se_expensetracker.MainActivity.db;
 
 public class SettingsActivity extends AppCompatActivity {
 
     private Spinner spinner1;
     private Button submitBtn;
+    private Currency c = new Currency(currency);
 
     public static String currency;
 
@@ -44,7 +46,10 @@ public class SettingsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                db.currencyDao().deleteCurrency(c);
                 currency = currencySymbol;
+                c = new Currency(currency);
+                db.currencyDao().insertCurrency(c);
 
                 Toast.makeText(SettingsActivity.this,
                         "OnClickListener : " +
