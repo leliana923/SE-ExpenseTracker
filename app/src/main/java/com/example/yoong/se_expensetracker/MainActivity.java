@@ -23,6 +23,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
+import static com.example.yoong.se_expensetracker.SettingsActivity.currency;
+
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 
     //recyclerview
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
     //views
     TextView dateView;
+    TextView curView;
 
     //database
     public static AppDatabase db;
@@ -48,6 +51,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         recyclerView = findViewById(R.id.expense_log);
         dateView = findViewById(R.id.date_view);
+        curView = (TextView) findViewById(R.id.currencyView); //not working
+        curView.setText(currency); //not working
 
         currentDate = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(new Date());
 

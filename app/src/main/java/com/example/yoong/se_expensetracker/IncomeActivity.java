@@ -13,6 +13,7 @@ import android.widget.Toast;
 
 import static com.example.yoong.se_expensetracker.MainActivity.currentDate;
 import static com.example.yoong.se_expensetracker.MainActivity.db;
+import static com.example.yoong.se_expensetracker.SettingsActivity.currency;
 
 public class IncomeActivity extends AppCompatActivity {
 
@@ -57,7 +58,7 @@ public class IncomeActivity extends AppCompatActivity {
         });
         minusButton();
         curView = (TextView) findViewById(R.id.currencyView);
-        //curView.setText(curview);
+        curView.setText(currency);
         editAmount = (EditText) findViewById(R.id.edit_amount);
 
     }

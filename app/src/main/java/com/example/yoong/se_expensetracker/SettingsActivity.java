@@ -7,10 +7,14 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import static com.example.yoong.se_expensetracker.CustomOnItemSelectedListener.currencySymbol;
+
 public class SettingsActivity extends AppCompatActivity {
 
     private Spinner spinner1;
     private Button submitBtn;
+
+    public static String currency;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +44,7 @@ public class SettingsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                currency = currencySymbol;
 
                 Toast.makeText(SettingsActivity.this,
                         "OnClickListener : " +

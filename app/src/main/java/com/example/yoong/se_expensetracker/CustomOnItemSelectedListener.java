@@ -7,60 +7,158 @@ import android.widget.Button;
 import android.widget.Toast;
 
 public class CustomOnItemSelectedListener extends MainActivity implements OnItemSelectedListener {
-    public static String currency;
+    public static String currencySymbol;
 
     public void onItemSelected(AdapterView<?> parent, View view, int pos,long id) {
 
         switch(pos){
-            case 0: currency = "Lek";
-            case 1: currency = "؋";
-            case 2: currency = "$";
-            case 3: currency = "$";
-            case 4: currency = "$";
-            case 5: currency = "лв";
-            case 6: currency = "R$";
-            case 7: currency = "$";
-            case 8: currency = "៛";
-            case 9: currency = "$";
-            case 10: currency = "$";
-            case 11: currency = "¥";
-            case 12: currency = "$";
-            case 13: currency = "₡";
-            case 14: currency = "kn";
-            case 15: currency = "₱";
-            case 16: currency = "Kč";
-            case 17: currency = "kr";
-            case 18: currency = "£";
-            case 19: currency = "$";
-            case 20: currency = "₹";
-            case 21: currency = "Rp";
-            case 22: currency = "¥";
-            case 23: currency = "₩";
-            case 24: currency = "ден";
-            case 25: currency = "RM";
-            case 26: currency = "₨";
-            case 27: currency = "$";
-            case 28: currency = "रु";
-            case 29: currency = "ƒ";
-            case 30: currency = "$";
-            case 31: currency = "₦";
-            case 32: currency = "kr";
-            case 33: currency = "﷼";
-            case 34: currency = "₨";
-            case 35: currency = "₱";
-            case 36: currency = "﷼";
-            case 37: currency = "P";
-            case 38: currency = "﷼";
-            case 39: currency = "$";
-            case 40: currency = "ரூ";
-            case 41: currency = "kr";
-            case 42: currency = "CHF";
-            case 43: currency = "NT$";
-            case 44: currency = "฿";
-            case 45: currency = "₺";
-            case 46: currency = "£";
-            case 47: currency = "$";
-            case 48: currency = "₫";
+            case 0:
+                currencySymbol = "Lek";
+                break;
+            case 1:
+                currencySymbol = "؋";
+                break;
+            case 2:
+                currencySymbol = "$";
+                break;
+            case 3:
+                currencySymbol = "$";
+                break;
+            case 4:
+                currencySymbol = "$";
+                break;
+            case 5:
+                currencySymbol = "лв";
+                break;
+            case 6:
+                currencySymbol = "R$";
+                break;
+            case 7:
+                currencySymbol = "$";
+                break;
+            case 8:
+                currencySymbol = "៛";
+                break;
+            case 9:
+                currencySymbol = "$";
+                break;
+            case 10:
+                currencySymbol = "$";
+                break;
+            case 11:
+                currencySymbol = "¥";
+                break;
+            case 12:
+                currencySymbol = "$";
+                break;
+            case 13:
+                currencySymbol = "₡";
+                break;
+            case 14:
+                currencySymbol = "kn";
+                break;
+            case 15:
+                currencySymbol = "₱";
+                break;
+            case 16:
+                currencySymbol = "Kč";
+                break;
+            case 17:
+                currencySymbol = "kr";
+                break;
+            case 18:
+                currencySymbol = "£";
+                break;
+            case 19:
+                currencySymbol = "$";
+                break;
+            case 20:
+                currencySymbol = "₹";
+                break;
+            case 21:
+                currencySymbol = "Rp";
+                break;
+            case 22:
+                currencySymbol = "¥";
+                break;
+            case 23:
+                currencySymbol = "₩";
+                break;
+            case 24:
+                currencySymbol = "ден";
+                break;
+            case 25:
+                currencySymbol = "RM";
+                break;
+            case 26:
+                currencySymbol = "₨";
+                break;
+            case 27:
+                currencySymbol = "$";
+                break;
+            case 28:
+                currencySymbol = "रु";
+                break;
+            case 29:
+                currencySymbol = "ƒ";
+                break;
+            case 30:
+                currencySymbol = "$";
+                break;
+            case 31:
+                currencySymbol = "₦";
+                break;
+            case 32:
+                currencySymbol = "kr";
+                break;
+            case 33:
+                currencySymbol = "﷼";
+                break;
+            case 34:
+                currencySymbol = "₨";
+                break;
+            case 35:
+                currencySymbol = "₱";
+                break;
+            case 36:
+                currencySymbol = "﷼";
+                break;
+            case 37:
+                currencySymbol = "P";
+                break;
+            case 38:
+                currencySymbol = "﷼";
+                break;
+            case 39:
+                currencySymbol = "$";
+                break;
+            case 40:
+                currencySymbol = "ரூ";
+                break;
+            case 41:
+                currencySymbol = "kr";
+                break;
+            case 42:
+                currencySymbol = "CHF";
+                break;
+            case 43:
+                currencySymbol = "NT$";
+                break;
+            case 44:
+                currencySymbol = "฿";
+                break;
+            case 45:
+                currencySymbol = "₺";
+                break;
+            case 46:
+                currencySymbol = "£";
+                break;
+            case 47:
+                currencySymbol = "$";
+                break;
+            case 48:
+                currencySymbol = "₫";
+                break;
 
         }
         /*Toast.makeText(parent.getContext(),
