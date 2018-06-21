@@ -1967,7 +1967,7 @@
 >>>>>>> f0552e72516516e83e230deb4436b851322ffcfd
         <item>Salary</item>
         <item>Allowance</item>
-        <item>Deposits</item>
+        <item>Savings</item>
         <item>Others</item>
     </string-array><string-array name="expenseCategory">
         <item>Eating Out</item>

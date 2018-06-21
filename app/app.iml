@@ -108,7 +108,11 @@
 =======
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+<<<<<<< HEAD
 >>>>>>> f0552e72516516e83e230deb4436b851322ffcfd
+=======
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/resources" />
+>>>>>>> a27b1d912af2aebf179b9f474c6443ca2bb2d2fc
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/splits-support" />

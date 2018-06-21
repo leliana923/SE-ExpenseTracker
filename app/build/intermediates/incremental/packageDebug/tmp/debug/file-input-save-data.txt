@@ -1,5 +1,6 @@
 #Internal package file, do not edit.
 <<<<<<< HEAD
+<<<<<<< HEAD
 #Thu Jun 21 23:08:42 SGT 2018
 2.base=C\:\\Users\\yoong\\GitHub\\SE-ExpenseTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 5.set=DEX
@@ -13,6 +14,9 @@ count=6
 5.baseType=DIRECTORY
 =======
 #Thu Jun 21 22:23:03 SGT 2018
+=======
+#Thu Jun 21 23:51:09 SGT 2018
+>>>>>>> a27b1d912af2aebf179b9f474c6443ca2bb2d2fc
 1.base=C\:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 >>>>>>> f0552e72516516e83e230deb4436b851322ffcfd
 2.path=classes.dex
