@@ -51,9 +51,16 @@ public class SettingsActivity extends AppCompatActivity {
                 c = new Currency(currency);
                 db.currencyDao().insertCurrency(c);
 
+<<<<<<< HEAD
                 Toast.makeText(SettingsActivity.this, "OnClickListener : " +
                                 "\nSpinner 1 : "+ String.valueOf(spinner1.getSelectedItem()),
+=======
+                Toast.makeText(SettingsActivity.this,
+                        "Currency type " +
+                                ": "+ String.valueOf(spinner1.getSelectedItem()),
+>>>>>>> a2ae2d571bfc0ac0f348b77211ec8b3248f8f6ae
                         Toast.LENGTH_SHORT).show();
+                finish();
             }
 
         });
