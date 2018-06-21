@@ -14,10 +14,11 @@ public class Entry {
 
     }
 
-    public Entry(String category, String date, String symbol, double amount) {
+
+    public Entry(String category, String date, String type, double amount) {
         this.category = category;
         this.date = date;
-        this.symbol = symbol;
+        this.type = type;
         this.amount = amount;
     }
 
@@ -31,7 +32,7 @@ public class Entry {
     private String date;
 
     @ColumnInfo(name = "symbol")
-    private String symbol;
+    private String type;
 
     @ColumnInfo(name = "amount")
     private double amount;
@@ -60,12 +61,12 @@ public class Entry {
         this.date = date;
     }
 
-    public String getSymbol() {
-        return symbol;
+    public String getType() {
+        return type;
     }
 
-    public void setSymbol(String symbol) {
-        this.symbol = symbol;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public double getAmount() {

@@ -1,6 +1,7 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\yansh\\Desktop\\Se proj\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
             "map": [
                 {
@@ -15,6 +16,12 @@
                 },
                 {
                     "source": "C:\\Users\\yansh\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\d1f1c5c782682ea90e373449f1d19a18\\res\\values-sq\\values-sq.xml",
+=======
+            "outputFile": "C:\\Users\\yoong\\GitHub\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sq\\values-sq.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yoong\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bdda73540ceb65117f13687cebc66350\\res\\values-sq\\values-sq.xml",
+>>>>>>> 133766cdc673843c64ab167ca262a3331a208815
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +35,16 @@
                         "startOffsets": "1962",
                         "endColumns": "100",
                         "endOffsets": "2058"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\yoong\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\dbc5c5cd793f837668e31790eeafe863\\res\\values-sq\\values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
                     }
                 }
             ]

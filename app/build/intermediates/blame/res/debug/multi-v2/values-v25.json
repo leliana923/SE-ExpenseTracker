@@ -1,10 +1,17 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "C:\\Users\\yansh\\Desktop\\Se proj\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
                     "source": "C:\\Users\\yansh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46d4cd0a13c44f2e4277156bbc2d58b6\\res\\values-v25\\values-v25.xml",
+=======
+            "outputFile": "C:\\Users\\yoong\\GitHub\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\yoong\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\dbc5c5cd793f837668e31790eeafe863\\res\\values-v25\\values-v25.xml",
+>>>>>>> 133766cdc673843c64ab167ca262a3331a208815
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
