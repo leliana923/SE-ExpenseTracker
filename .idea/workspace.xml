@@ -6,10 +6,22 @@
     </shared>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="1e600cd6-3bc3-44cb-8d1a-ee9f4bf45a99" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+=======
+<<<<<<< HEAD
+    <list default="true" id="c0565573-eb1e-498e-932f-321cd8f2d292" name="Default" comment="" />
+=======
+    <list default="true" id="dfc46c28-58bc-497c-bc45-e7cc2c07ed05" name="Default" comment="" />
+=======
+  <component name="ChangeListManager">
+    <list default="true" id="a73b6375-4c4e-4a1a-8c62-59e4d843ae4b" name="Default" comment="" />
+>>>>>>> a2ae2d571bfc0ac0f348b77211ec8b3248f8f6ae
+>>>>>>> 76d2c9592953ab40c06b3688cb81672347367d73
+>>>>>>> f0552e72516516e83e230deb4436b851322ffcfd
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

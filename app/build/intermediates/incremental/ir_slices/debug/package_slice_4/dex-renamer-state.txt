@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 #Thu Jun 21 23:08:42 SGT 2018
 base.0=C\:\\Users\\yoong\\GitHub\\SE-ExpenseTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+=======
+#Thu Jun 21 22:23:01 SGT 2018
+base.0=C\:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+>>>>>>> f0552e72516516e83e230deb4436b851322ffcfd
 path.0=classes.dex
 renamed.0=classes.dex

@@ -15,6 +15,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.text.DateFormat;
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -25,15 +26,16 @@ import static com.example.yoong.se_expensetracker.SettingsActivity.currency;
 
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 
-
-
     //recyclerview
     RecyclerView recyclerView;
     LogViewAdapter adapter;
 
     //date
     public static String currentDate;
+
+    //amount
     public static Double amount;
+    public static DecimalFormat df = new DecimalFormat("0.00");
 
     //buttons
     Button addincome, addexpense;
@@ -162,6 +164,6 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         catch (NullPointerException e){
             amount = 0.00;
         }
-        bal.setText(amount.toString());
+        bal.setText(df.format(amount).toString());
     }
 }
