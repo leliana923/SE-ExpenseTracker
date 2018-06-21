@@ -4,7 +4,6 @@ import android.app.DatePickerDialog;
 import android.arch.persistence.room.Room;
 import android.content.Intent;
 import android.support.v4.app.DialogFragment;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -17,7 +16,6 @@ import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -26,6 +24,8 @@ import java.util.Locale;
 import static com.example.yoong.se_expensetracker.SettingsActivity.currency;
 
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
+
+
 
     //recyclerview
     RecyclerView recyclerView;
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         recyclerView = findViewById(R.id.expense_log);
         dateView = findViewById(R.id.date_view);
-        curView = (TextView) findViewById(R.id.currencyView); //not working
+        curView = findViewById(R.id.currencyView); //not working
         curView.setText(currency); //not working
         bal = findViewById(R.id.balance_view);
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         }
         catch (NullPointerException e){
             currency = "RM";
-        };
+        }
 
         balance();
 

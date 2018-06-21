@@ -47,6 +47,12 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
         holder.id.setText(Integer.toString(entries.get(position).getUid()));
         holder.type.setText(entries.get(position).getType());
 
+        if(holder.type.getText().equals("INCOME")){
+            holder.parentLayout.setBackgroundResource(R.color.incomeColor);
+        } else {
+            holder.parentLayout.setBackgroundResource(R.color.expenseColor);
+        }
+
         holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -91,6 +97,7 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
             type = itemView.findViewById(R.id.entry_type);
 
             parentLayout = itemView.findViewById(R.id.logLayout);
+
         }
     }
 }
