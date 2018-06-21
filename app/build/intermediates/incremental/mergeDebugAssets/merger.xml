@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\assets"/><source path="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\debug\assets"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\assets"/><source path="C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\debug\assets"/></dataSet></merger>
->>>>>>> f0552e72516516e83e230deb4436b851322ffcfd

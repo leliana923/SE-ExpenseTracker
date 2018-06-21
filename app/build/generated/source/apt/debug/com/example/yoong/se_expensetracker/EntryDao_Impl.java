@@ -162,7 +162,7 @@ public class EntryDao_Impl implements EntryDao {
 
   @Override
   public List<Entry> getAllByDates(String date) {
-    final String _sql = "SELECT * FROM entry WHERE date LIKE ?";
+    final String _sql = "SELECT * FROM entry WHERE date = ?";
     final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 1);
     int _argIndex = 1;
     if (date == null) {

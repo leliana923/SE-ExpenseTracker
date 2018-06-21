@@ -2039,7 +2039,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -3674,13 +3674,13 @@ public final class R {
     public static final int amount_id=0x7f090020;
     public static final int async=0x7f090021;
     public static final int auto=0x7f090022;
-    public static final int balance_view=0x7f090023;
-    public static final int barrier=0x7f090024;
-    public static final int beginning=0x7f090025;
-    public static final int blocking=0x7f090026;
-    public static final int bottom=0x7f090027;
-    public static final int btnSubmit=0x7f090028;
-    public static final int budget_view=0x7f090029;
+    public static final int balance_textview=0x7f090023;
+    public static final int balance_view=0x7f090024;
+    public static final int barrier=0x7f090025;
+    public static final int beginning=0x7f090026;
+    public static final int blocking=0x7f090027;
+    public static final int bottom=0x7f090028;
+    public static final int btnSubmit=0x7f090029;
     public static final int buttonPanel=0x7f09002a;
     public static final int calendar_btn=0x7f09002b;
     public static final int cancel_action=0x7f09002c;
@@ -9083,7 +9083,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>

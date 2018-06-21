@@ -65,8 +65,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "expense log")
                .fallbackToDestructiveMigration().allowMainThreadQueries().build();
 
-        List<Entry> entries = db.entryDao().getAllEntries();
-        //List<Entry> entries = db.entryDao().getAllByDates(currentDate);
+        //List<Entry> entries = db.entryDao().getAllEntries();
 
         try {
             currency = db.currencyDao().getSelectedCurrency().getCurrency();
@@ -75,11 +74,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
             currency = "RM";
         }
 
-        balance();
-
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new LogViewAdapter(entries, this);
-        recyclerView.setAdapter(adapter);
+        setMainPage();
 
         addincome = findViewById(R.id.add_income_btn);
         addincome.setOnClickListener(new View.OnClickListener() {
@@ -130,6 +125,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         currentDate = df.format(c.getTime());
         String fulldate = DateFormat.getDateInstance(DateFormat.FULL).format(c.getTime());
 
+        setMainPage();
+
         dateView.setText(fulldate);
     }
 
@@ -137,19 +134,11 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     protected void onResume() {
         super.onResume();
 
-
-        List<Entry> entries = db.entryDao().getAllEntries();
-
-        Currency c = db.currencyDao().getSelectedCurrency();
-
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new LogViewAdapter(entries, this);
-        recyclerView.setAdapter(adapter);
-        balance();
+        setMainPage();
     }
 
     public void balance(){
-        List<Entry> entries = db.entryDao().getAllEntries();
+        List<Entry> entries = db.entryDao().getAllByDates(currentDate);
         amount = 0.00;
 
         try {
@@ -165,5 +154,13 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
             amount = 0.00;
         }
         bal.setText(df.format(amount).toString());
+    }
+
+    private void setMainPage(){
+        List<Entry> entries = db.entryDao().getAllByDates(currentDate);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        adapter = new LogViewAdapter(entries, this);
+        recyclerView.setAdapter(adapter);
+        balance();
     }
 }

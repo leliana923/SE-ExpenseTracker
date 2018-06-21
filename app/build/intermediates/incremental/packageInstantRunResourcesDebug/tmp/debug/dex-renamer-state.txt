@@ -1,9 +1,1 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-#Thu Jun 21 23:25:59 SGT 2018
-=======
-#Thu Jun 21 22:22:47 SGT 2018
->>>>>>> f0552e72516516e83e230deb4436b851322ffcfd
-=======
-#Thu Jun 21 23:51:08 SGT 2018
->>>>>>> a27b1d912af2aebf179b9f474c6443ca2bb2d2fc
+#Fri Jun 22 01:02:32 SGT 2018

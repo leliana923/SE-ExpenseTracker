@@ -14,7 +14,7 @@ public interface EntryDao {
     @Query("SELECT * FROM entry")
     List<Entry> getAllEntries();
 
-    @Query("SELECT * FROM entry WHERE date LIKE :date")
+    @Query("SELECT * FROM entry WHERE date = :date")
     List<Entry> getAllByDates(String date);
 
     @Insert
