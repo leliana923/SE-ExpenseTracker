@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.List;
 
 import static android.support.v4.content.ContextCompat.startActivity;
+import static com.example.yoong.se_expensetracker.MainActivity.df;
 
 public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHolder> {
 
@@ -43,7 +44,7 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
         Log.d(TAG, "onBindViewHolder: called");
 
         holder.title.setText(entries.get(position).getCategory());
-        holder.amount.setText(Double.toString(entries.get(position).getAmount()));
+        holder.amount.setText(df.format(entries.get(position).getAmount()));
         holder.id.setText(Integer.toString(entries.get(position).getUid()));
         holder.type.setText(entries.get(position).getType());
 
