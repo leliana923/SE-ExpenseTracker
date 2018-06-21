@@ -83,6 +83,7 @@ public class ExpenseActivity extends AppCompatActivity {
                     entry.setCategory(category);
                     entry.setDate(currentDate);
                     entry.setSymbol("-");
+                    entry.setAmount(Double.parseDouble(editAmount.getText().toString()));
                     db.entryDao().insertAll(entry);
 
                 }

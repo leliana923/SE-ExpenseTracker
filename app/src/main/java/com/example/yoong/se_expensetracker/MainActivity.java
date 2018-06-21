@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     LogViewAdapter adapter;
 
     public static String currentDate;
+    public static Double amount;
 
     //buttons
     Button addincome, addexpense;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     //views
     TextView dateView;
     TextView curView;
+    TextView bal;
 
     //database
     public static AppDatabase db;
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         dateView = findViewById(R.id.date_view);
         curView = (TextView) findViewById(R.id.currencyView); //not working
         curView.setText(currency); //not working
+        bal = findViewById(R.id.balance_view);
 
         currentDate = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(new Date());
 
@@ -61,12 +64,15 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         List<Entry> entries = db.entryDao().getAllEntries();
         //List<Entry> entries = db.entryDao().getAllByDates(currentDate);
+
         try {
             currency = db.currencyDao().getSelectedCurrency().getCurrency();
         }
         catch (NullPointerException e){
             currency = "RM";
         };
+
+        balance();
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new LogViewAdapter(entries);
@@ -132,5 +138,25 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new LogViewAdapter(entries);
         recyclerView.setAdapter(adapter);
+        balance();
+    }
+
+    public void balance(){
+        List<Entry> entries = db.entryDao().getAllEntries();
+        amount = 0.00;
+
+        try {
+            for (Entry entry : entries) {
+                if (entry.getSymbol().equals("+")) {
+                    amount += entry.getAmount();
+                } else {
+                    amount -= entry.getAmount();
+                }
+            }
+        }
+        catch (NullPointerException e){
+            amount = 0.00;
+        }
+        bal.setText(amount.toString());
     }
 }

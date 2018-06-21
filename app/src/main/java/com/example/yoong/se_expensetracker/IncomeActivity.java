@@ -73,12 +73,11 @@ public class IncomeActivity extends AppCompatActivity {
                     Toast.makeText(IncomeActivity.this, "You did not enter a number", Toast.LENGTH_SHORT).show();
                     return;
                 }else {
-                    String amount = editAmount.toString();
                     Entry entry = new Entry();
                     entry.setCategory(category);
                     entry.setDate(currentDate);
                     entry.setSymbol("+");
-                    entry.setAmount(Double.parseDouble(amount));
+                    entry.setAmount(Double.parseDouble(editAmount.getText().toString()));
                     db.entryDao().insertAll(entry);
                 }
                 finish();
