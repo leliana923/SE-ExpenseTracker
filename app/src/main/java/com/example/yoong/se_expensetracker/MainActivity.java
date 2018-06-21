@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         //List<Entry> entries = db.entryDao().getAllByDates(currentDate);
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new LogViewAdapter(entries);
+        adapter = new LogViewAdapter(entries, this);
         recyclerView.setAdapter(adapter);
 
         addincome = findViewById(R.id.add_income_btn);
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         super.onResume();
         List<Entry> entries = db.entryDao().getAllEntries();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new LogViewAdapter(entries);
+        adapter = new LogViewAdapter(entries, this);
         recyclerView.setAdapter(adapter);
     }
 }

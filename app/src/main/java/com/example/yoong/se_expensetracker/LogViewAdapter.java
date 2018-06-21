@@ -1,5 +1,7 @@
 package com.example.yoong.se_expensetracker;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -11,15 +13,19 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import static android.support.v4.content.ContextCompat.startActivity;
+
 public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHolder> {
 
     private static final String TAG = "LogViewAdapter";
 
     private List<Entry> entries;
+    private Context mContext;
 
 
-    public LogViewAdapter(List<Entry> entries) {
+    public LogViewAdapter(List<Entry> entries, Context context) {
         this.entries = entries;
+        mContext = context;
     }
 
     @NonNull
@@ -44,7 +50,13 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
         holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "onClick: clicked on " + title.get(position));
+                Log.d(TAG, "onClick: clicked on " + entries.get(position));
+
+                Intent intent = new Intent( mContext, EntryDetailsActivity.class);
+                intent.putExtra("entry_id", entries.get(position).getUid());
+                intent.putExtra( "entry_category", entries.get(position).getCategory());
+                intent.putExtra( "entry_amount", entries.get(position).getAmount());
+                mContext.startActivity(intent);
 
 
 
@@ -74,7 +86,7 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
             amount =  itemView.findViewById(R.id.entry_amount);
             id = itemView.findViewById(R.id.entry_id);
             type = itemView.findViewById(R.id.entry_type);
-            parentLayout = (RelativeLayout) itemView.findViewById(R.id.logLayout);
+            parentLayout = itemView.findViewById(R.id.logLayout);
         }
     }
 }
