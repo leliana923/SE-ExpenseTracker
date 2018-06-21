@@ -38,39 +38,18 @@ public class IncomeActivity extends AppCompatActivity {
 
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
-<<<<<<< HEAD
-                if (i == 0) {
-                    category = "Salary";
-                }
-                if (i == 1) {
-                    category = "Allowance";
-                }
-                if (i == 2) {
-                    category = "Deposits";
-                }
-                if (i == 3) {
-                    category = "Others";
-                }
-=======
-                category = mAdapter.getItem(i);
->>>>>>> test
+                    category = mAdapter.getItem(i);
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
-<<<<<<< HEAD
-        minusButton();
-        curView = (TextView) findViewById(R.id.currencyView);
-        curView.setText(currency);
-        editAmount = (EditText) findViewById(R.id.edit_amount);
-=======
+
         addEntry();
         curView = findViewById(R.id.currencyView);
-        //curView.setText(curview);
+        curView.setText(currency);
         editAmount = findViewById(R.id.edit_amount);
->>>>>>> test
 
     }
 
@@ -84,20 +63,14 @@ public class IncomeActivity extends AppCompatActivity {
                     Toast.makeText(IncomeActivity.this, "You did not enter a number", Toast.LENGTH_SHORT).show();
                     return;
                 }else {
-<<<<<<< HEAD
-                    Entry entry = new Entry();
-                    entry.setCategory(category);
-                    entry.setDate(currentDate);
-                    entry.setSymbol("+");
-                    entry.setAmount(Double.parseDouble(editAmount.getText().toString()));
-=======
+
                     String amount = editAmount.getText().toString();
                     Entry entry = new Entry();
                     entry.setCategory(category);
                     entry.setDate(currentDate);
                     entry.setType("INCOME");
                     entry.setAmount(Double.parseDouble(amount));
->>>>>>> test
+
                     db.entryDao().insertAll(entry);
 
                 }

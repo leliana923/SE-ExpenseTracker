@@ -137,12 +137,9 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
 
         List<Entry> entries = db.entryDao().getAllEntries();
-<<<<<<< HEAD
+
         Currency c = db.currencyDao().getSelectedCurrency();
-=======
 
-
->>>>>>> test
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new LogViewAdapter(entries, this);
         recyclerView.setAdapter(adapter);
@@ -155,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         try {
             for (Entry entry : entries) {
-                if (entry.getSymbol().equals("+")) {
+                if (entry.getType().equals("INCOME")) {
                     amount += entry.getAmount();
                 } else {
                     amount -= entry.getAmount();

@@ -29,17 +29,6 @@
         tools:layout_editor_absoluteY="0dp" />
 
     <TextView
-<<<<<<< HEAD
-        android:id="@+id/logSymbol"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="20dp"
-        android:text="+/-"
-        android:textAlignment="center"
-        android:textSize="24sp" />
-=======
         android:id="@+id/entry_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,6 +45,6 @@
         android:layout_centerHorizontal="true"
         android:text="TextView"
         android:visibility="invisible" />
->>>>>>> test
+
 
 </RelativeLayout>

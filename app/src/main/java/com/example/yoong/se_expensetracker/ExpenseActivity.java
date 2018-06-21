@@ -38,45 +38,19 @@ public class ExpenseActivity extends AppCompatActivity {
 
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
-<<<<<<< HEAD
-                if (i == 0) {
-                    category = "Eating Out";
-                }
-                if (i == 1) {
-                    category = "Clothes";
-                }
-                if (i == 2) {
-                    category = "Food";
-                }
-                if (i == 3) {
-                    category = "Bills";
-                }
-                if (i == 4) {
-                    category = "Entertainment";
-                }
-                if (i == 5) {
-                    category = "Others";
-                }
-=======
                 category = mAdapter.getItem(i);
->>>>>>> test
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
-<<<<<<< HEAD
-        minusButton();
-        curView = (TextView) findViewById(R.id.currencyView);
-        curView.setText(currency);
-        editAmount = (EditText) findViewById(R.id.edit_amount);
-=======
+
         addEntry();
         curView = findViewById(R.id.currencyView);
-        //curView.setText(curview);
+        curView.setText(currency);
         editAmount = findViewById(R.id.edit_amount);
->>>>>>> test
+
 
     }
 
@@ -94,13 +68,9 @@ public class ExpenseActivity extends AppCompatActivity {
                     Entry entry = new Entry();
                     entry.setCategory(category);
                     entry.setDate(currentDate);
-<<<<<<< HEAD
-                    entry.setSymbol("-");
-                    entry.setAmount(Double.parseDouble(editAmount.getText().toString()));
-=======
                     entry.setType("EXPENSE");
                     entry.setAmount(Double.parseDouble(amount));
->>>>>>> test
+
                     db.entryDao().insertAll(entry);
 
                 }

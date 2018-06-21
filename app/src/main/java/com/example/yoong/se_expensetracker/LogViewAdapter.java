@@ -42,7 +42,6 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
         Log.d(TAG, "onBindViewHolder: called");
 
-        holder.symbol.setText(entries.get(position).getSymbol());
         holder.title.setText(entries.get(position).getCategory());
         holder.amount.setText(Double.toString(entries.get(position).getAmount()));
         holder.id.setText(Integer.toString(entries.get(position).getUid()));
@@ -86,19 +85,12 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
         public ViewHolder(View itemView) {
             super(itemView);
 
-<<<<<<< HEAD
-            symbol = (TextView) itemView.findViewById(R.id.logSymbol);
-            title = (TextView) itemView.findViewById(R.id.logCategory);
-            amount = (TextView) itemView.findViewById(R.id.logAmount);
-            parentLayout = (RelativeLayout) itemView.findViewById(R.id.logLayout);
-=======
             title = itemView.findViewById(R.id.entry_category);
             amount =  itemView.findViewById(R.id.entry_amount);
             id = itemView.findViewById(R.id.entry_id);
             type = itemView.findViewById(R.id.entry_type);
 
             parentLayout = itemView.findViewById(R.id.logLayout);
->>>>>>> test
         }
     }
 }
