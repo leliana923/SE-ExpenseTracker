@@ -1,6 +1,5 @@
 package com.example.yoong.se_expensetracker;
 
-import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
@@ -9,9 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHolder> {
@@ -41,16 +38,18 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
 
         holder.title.setText(entries.get(position).getCategory());
         holder.amount.setText(Double.toString(entries.get(position).getAmount()));
+        holder.id.setText(entries.get(position).getUid());
+        holder.type.setText(entries.get(position).getSymbol());
 
-        /*holder.parentLayout.setOnClickListener(new View.OnClickListener() {
+        holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "onClick: clicked on " + mTitle.get(position));
+                Log.d(TAG, "onClick: clicked on " + title.get(position));
 
 
 
             }
-        });*/
+        });
     }
 
     @Override
@@ -64,13 +63,17 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
 
         public TextView title;
         public TextView amount;
+        public TextView id;
+        public TextView type;
         RelativeLayout parentLayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
 
-            title = (TextView) itemView.findViewById(R.id.logCategory);
-            amount = (TextView) itemView.findViewById(R.id.logAmount);
+            title = itemView.findViewById(R.id.entry_category);
+            amount =  itemView.findViewById(R.id.entry_amount);
+            id = itemView.findViewById(R.id.entry_id);
+            type = itemView.findViewById(R.id.entry_type);
             parentLayout = (RelativeLayout) itemView.findViewById(R.id.logLayout);
         }
     }
