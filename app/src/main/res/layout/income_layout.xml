@@ -16,8 +16,12 @@
         android:layout_marginTop="79dp"
         android:ems="10"
         android:hint="Enter amount"
+<<<<<<< HEAD
         android:inputType="number"
         android:textSize="24sp"
+=======
+        android:inputType="numberDecimal"
+>>>>>>> test
         app:layout_constraintBottom_toTopOf="@+id/choose_Category"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

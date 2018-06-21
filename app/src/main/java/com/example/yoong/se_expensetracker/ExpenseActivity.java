@@ -22,6 +22,7 @@ public class ExpenseActivity extends AppCompatActivity {
     Spinner chooseCat;
     TextView curView;
     String category;
+    ArrayAdapter<String> mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,15 +30,15 @@ public class ExpenseActivity extends AppCompatActivity {
         setContentView(R.layout.expense_layout);
 
         chooseCat = findViewById(R.id.choose_Category);
-        ArrayAdapter<String> myAdapter =
-                new ArrayAdapter<String>(ExpenseActivity.this, android.R.layout.simple_list_item_1,
+        mAdapter = new ArrayAdapter<>(ExpenseActivity.this, android.R.layout.simple_list_item_1,
                         getResources().getStringArray(R.array.expenseCategory));
-        myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        chooseCat.setAdapter(myAdapter);
+        mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        chooseCat.setAdapter(mAdapter);
         chooseCat.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
+<<<<<<< HEAD
                 if (i == 0) {
                     category = "Eating Out";
                 }
@@ -56,20 +57,30 @@ public class ExpenseActivity extends AppCompatActivity {
                 if (i == 5) {
                     category = "Others";
                 }
+=======
+                category = mAdapter.getItem(i);
+>>>>>>> test
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
+<<<<<<< HEAD
         minusButton();
         curView = (TextView) findViewById(R.id.currencyView);
         curView.setText(currency);
         editAmount = (EditText) findViewById(R.id.edit_amount);
+=======
+        addEntry();
+        curView = findViewById(R.id.currencyView);
+        //curView.setText(curview);
+        editAmount = findViewById(R.id.edit_amount);
+>>>>>>> test
 
     }
 
-    private void minusButton() {
+    private void addEntry() {
 
         confirmBtn = findViewById(R.id.cfm_btn);
         confirmBtn.setOnClickListener(new View.OnClickListener() {
@@ -79,11 +90,17 @@ public class ExpenseActivity extends AppCompatActivity {
                     Toast.makeText(ExpenseActivity.this, "You did not enter a number", Toast.LENGTH_SHORT).show();
                     return;
                 }else {
+                    String amount = editAmount.getText().toString();
                     Entry entry = new Entry();
                     entry.setCategory(category);
                     entry.setDate(currentDate);
+<<<<<<< HEAD
                     entry.setSymbol("-");
                     entry.setAmount(Double.parseDouble(editAmount.getText().toString()));
+=======
+                    entry.setType("EXPENSE");
+                    entry.setAmount(Double.parseDouble(amount));
+>>>>>>> test
                     db.entryDao().insertAll(entry);
 
                 }

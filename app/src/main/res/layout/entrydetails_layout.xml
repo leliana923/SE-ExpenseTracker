@@ -8,20 +8,17 @@
 
     <EditText
         android:id="@+id/edit_amount"
-        android:layout_width="207dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="57dp"
         android:layout_marginEnd="50dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginRight="50dp"
         android:layout_marginStart="84dp"
         android:layout_marginTop="79dp"
         android:ems="10"
         android:hint="Enter amount"
-<<<<<<< HEAD
-        android:inputType="number"
-        android:textSize="24sp"
-=======
         android:inputType="numberDecimal"
->>>>>>> test
         app:layout_constraintBottom_toTopOf="@+id/choose_Category"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -31,21 +28,30 @@
         app:layout_constraintVertical_chainStyle="spread_inside" />
 
     <Button
-        android:id="@+id/cfm_btn"
+        android:id="@+id/update_btn"
         android:layout_width="104dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Confirm"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="324dp"
+        android:text="Update"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.246"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="104dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="324dp"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
         android:id="@+id/choose_Category"
@@ -53,10 +59,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="104dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintBottom_toTopOf="@+id/cfm_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -70,10 +74,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="68dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="96dp"
         android:layout_marginTop="8dp"
         android:text="RM"
-        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/choose_Category"
         app:layout_constraintEnd_toStartOf="@+id/cfm_btn"
         app:layout_constraintHorizontal_bias="0.905"
