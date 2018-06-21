@@ -52,9 +52,10 @@ public class SettingsActivity extends AppCompatActivity {
                 db.currencyDao().insertCurrency(c);
 
                 Toast.makeText(SettingsActivity.this,
-                        "OnClickListener : " +
-                                "\nSpinner 1 : "+ String.valueOf(spinner1.getSelectedItem()),
+                        "Currency type " +
+                                ": "+ String.valueOf(spinner1.getSelectedItem()),
                         Toast.LENGTH_SHORT).show();
+                finish();
             }
 
         });

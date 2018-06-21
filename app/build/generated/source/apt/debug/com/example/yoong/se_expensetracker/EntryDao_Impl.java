@@ -43,10 +43,10 @@ public class EntryDao_Impl implements EntryDao {
         } else {
           stmt.bindString(3, value.getDate());
         }
-        if (value.getSymbol() == null) {
+        if (value.getType() == null) {
           stmt.bindNull(4);
         } else {
-          stmt.bindString(4, value.getSymbol());
+          stmt.bindString(4, value.getType());
         }
         stmt.bindDouble(5, value.getAmount());
       }
@@ -81,10 +81,10 @@ public class EntryDao_Impl implements EntryDao {
         } else {
           stmt.bindString(3, value.getDate());
         }
-        if (value.getSymbol() == null) {
+        if (value.getType() == null) {
           stmt.bindNull(4);
         } else {
-          stmt.bindString(4, value.getSymbol());
+          stmt.bindString(4, value.getType());
         }
         stmt.bindDouble(5, value.getAmount());
         stmt.bindLong(6, value.getUid());
@@ -104,7 +104,7 @@ public class EntryDao_Impl implements EntryDao {
   }
 
   @Override
-  public void delete(Entry entry) {
+  public void deleteEntry(Entry entry) {
     __db.beginTransaction();
     try {
       __deletionAdapterOfEntry.handle(entry);
@@ -134,7 +134,7 @@ public class EntryDao_Impl implements EntryDao {
       final int _cursorIndexOfUid = _cursor.getColumnIndexOrThrow("uid");
       final int _cursorIndexOfCategory = _cursor.getColumnIndexOrThrow("category");
       final int _cursorIndexOfDate = _cursor.getColumnIndexOrThrow("date");
-      final int _cursorIndexOfSymbol = _cursor.getColumnIndexOrThrow("symbol");
+      final int _cursorIndexOfType = _cursor.getColumnIndexOrThrow("symbol");
       final int _cursorIndexOfAmount = _cursor.getColumnIndexOrThrow("amount");
       final List<Entry> _result = new ArrayList<Entry>(_cursor.getCount());
       while(_cursor.moveToNext()) {
@@ -143,11 +143,11 @@ public class EntryDao_Impl implements EntryDao {
         _tmpCategory = _cursor.getString(_cursorIndexOfCategory);
         final String _tmpDate;
         _tmpDate = _cursor.getString(_cursorIndexOfDate);
-        final String _tmpSymbol;
-        _tmpSymbol = _cursor.getString(_cursorIndexOfSymbol);
+        final String _tmpType;
+        _tmpType = _cursor.getString(_cursorIndexOfType);
         final double _tmpAmount;
         _tmpAmount = _cursor.getDouble(_cursorIndexOfAmount);
-        _item = new Entry(_tmpCategory,_tmpDate,_tmpSymbol,_tmpAmount);
+        _item = new Entry(_tmpCategory,_tmpDate,_tmpType,_tmpAmount);
         final int _tmpUid;
         _tmpUid = _cursor.getInt(_cursorIndexOfUid);
         _item.setUid(_tmpUid);
@@ -175,7 +175,7 @@ public class EntryDao_Impl implements EntryDao {
       final int _cursorIndexOfUid = _cursor.getColumnIndexOrThrow("uid");
       final int _cursorIndexOfCategory = _cursor.getColumnIndexOrThrow("category");
       final int _cursorIndexOfDate = _cursor.getColumnIndexOrThrow("date");
-      final int _cursorIndexOfSymbol = _cursor.getColumnIndexOrThrow("symbol");
+      final int _cursorIndexOfType = _cursor.getColumnIndexOrThrow("symbol");
       final int _cursorIndexOfAmount = _cursor.getColumnIndexOrThrow("amount");
       final List<Entry> _result = new ArrayList<Entry>(_cursor.getCount());
       while(_cursor.moveToNext()) {
@@ -184,11 +184,11 @@ public class EntryDao_Impl implements EntryDao {
         _tmpCategory = _cursor.getString(_cursorIndexOfCategory);
         final String _tmpDate;
         _tmpDate = _cursor.getString(_cursorIndexOfDate);
-        final String _tmpSymbol;
-        _tmpSymbol = _cursor.getString(_cursorIndexOfSymbol);
+        final String _tmpType;
+        _tmpType = _cursor.getString(_cursorIndexOfType);
         final double _tmpAmount;
         _tmpAmount = _cursor.getDouble(_cursorIndexOfAmount);
-        _item = new Entry(_tmpCategory,_tmpDate,_tmpSymbol,_tmpAmount);
+        _item = new Entry(_tmpCategory,_tmpDate,_tmpType,_tmpAmount);
         final int _tmpUid;
         _tmpUid = _cursor.getInt(_cursorIndexOfUid);
         _item.setUid(_tmpUid);

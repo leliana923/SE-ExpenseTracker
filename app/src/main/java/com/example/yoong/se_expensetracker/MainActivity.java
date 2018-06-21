@@ -4,7 +4,6 @@ import android.app.DatePickerDialog;
 import android.arch.persistence.room.Room;
 import android.content.Intent;
 import android.support.v4.app.DialogFragment;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -17,7 +16,6 @@ import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
@@ -27,10 +25,13 @@ import static com.example.yoong.se_expensetracker.SettingsActivity.currency;
 
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 
+
+
     //recyclerview
     RecyclerView recyclerView;
     LogViewAdapter adapter;
 
+    //date
     public static String currentDate;
     public static Double amount;
 
@@ -53,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         recyclerView = findViewById(R.id.expense_log);
         dateView = findViewById(R.id.date_view);
-        curView = (TextView) findViewById(R.id.currencyView); //not working
+        curView = findViewById(R.id.currencyView); //not working
         curView.setText(currency); //not working
         bal = findViewById(R.id.balance_view);
 
@@ -70,12 +71,12 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         }
         catch (NullPointerException e){
             currency = "RM";
-        };
+        }
 
         balance();
 
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new LogViewAdapter(entries);
+        adapter = new LogViewAdapter(entries, this);
         recyclerView.setAdapter(adapter);
 
         addincome = findViewById(R.id.add_income_btn);
@@ -124,7 +125,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
 
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-        String currentDate = df.format(c.getTime());
+        currentDate = df.format(c.getTime());
         String fulldate = DateFormat.getDateInstance(DateFormat.FULL).format(c.getTime());
 
         dateView.setText(fulldate);
@@ -133,10 +134,14 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     @Override
     protected void onResume() {
         super.onResume();
+
+
         List<Entry> entries = db.entryDao().getAllEntries();
+
         Currency c = db.currencyDao().getSelectedCurrency();
+
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        adapter = new LogViewAdapter(entries);
+        adapter = new LogViewAdapter(entries, this);
         recyclerView.setAdapter(adapter);
         balance();
     }
@@ -147,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         try {
             for (Entry entry : entries) {
-                if (entry.getSymbol().equals("+")) {
+                if (entry.getType().equals("INCOME")) {
                     amount += entry.getAmount();
                 } else {
                     amount -= entry.getAmount();

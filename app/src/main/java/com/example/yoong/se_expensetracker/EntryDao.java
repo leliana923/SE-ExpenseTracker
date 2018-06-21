@@ -21,7 +21,7 @@ public interface EntryDao {
     void insertAll(Entry... entries);
 
     @Delete
-    void delete(Entry entry);
+    void deleteEntry(Entry entry);
 
     @Update
     void updateEntry(Entry entry);
