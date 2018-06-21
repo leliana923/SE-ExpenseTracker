@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
-<merger version="3"><dataSet config="main"><source path="C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\debug\jniLibs"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\debug\jniLibs"/></dataSet></merger>
->>>>>>> 133766cdc673843c64ab167ca262a3331a208815
+<merger version="3"><dataSet config="main"><source path="C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\debug\jniLibs"/></dataSet></merger>

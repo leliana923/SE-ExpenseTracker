@@ -1,8 +1,7 @@
 {
     "logs": [
         {
-<<<<<<< HEAD
-            "outputFile": "C:\\Users\\yansh\\Desktop\\Se proj\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
+            "outputFile": "C:\\Users\\yansh\\Desktop\\Se proj\\SE-ExpenseTracker\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
             "map": [
                 {
                     "source": "C:\\Users\\yansh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46d4cd0a13c44f2e4277156bbc2d58b6\\res\\values-et\\values-et.xml",
@@ -16,12 +15,6 @@
                 },
                 {
                     "source": "C:\\Users\\yansh\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\d1f1c5c782682ea90e373449f1d19a18\\res\\values-et\\values-et.xml",
-=======
-            "outputFile": "C:\\Users\\yoong\\GitHub\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-et\\values-et.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\yoong\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bdda73540ceb65117f13687cebc66350\\res\\values-et\\values-et.xml",
->>>>>>> 133766cdc673843c64ab167ca262a3331a208815
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,16 +28,6 @@
                         "startOffsets": "1965",
                         "endColumns": "100",
                         "endOffsets": "2061"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\yoong\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\dbc5c5cd793f837668e31790eeafe863\\res\\values-et\\values-et.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,222,329,440,526,628,745,825,903,986,1097,1202,1301,1411,1512,1615,1781,1883",
-                        "endColumns": "116,106,110,85,101,116,79,77,82,110,104,98,109,100,102,165,101,81",
-                        "endOffsets": "217,324,435,521,623,740,820,898,981,1092,1197,1296,1406,1507,1610,1776,1878,1960"
                     }
                 }
             ]

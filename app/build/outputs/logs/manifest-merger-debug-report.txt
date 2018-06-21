@@ -1,10 +1,9 @@
 -- Merging decision tree log ---
 manifest
-<<<<<<< HEAD
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\5560647347d50cb6b9ba7b20b8933694\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46d4cd0a13c44f2e4277156bbc2d58b6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f9dbc839f9e6859e896a67e6e51b3516\AndroidManifest.xml:2:1-11:12
@@ -25,259 +24,120 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yansh\.gradle\
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a6d91051da442d157f5648b9ac856b6a\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c92281b4c73e4c937cdcf060e45ee08\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\835ae44bcbac3e01ccc98d6cb8852bfc\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:3:5-50
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-24:12
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f9dbc839f9e6859e896a67e6e51b3516\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f9dbc839f9e6859e896a67e6e51b3516\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.yoong.se_expensetracker.MainActivity
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.example.yoong.se_expensetracker.IncomeActivity
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:19:9-52
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:19:9-52
 	android:name
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:19:19-49
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:19:19-49
 activity#com.example.yoong.se_expensetracker.ExpenseActivity
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:20:9-53
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:20:9-53
 	android:name
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:20:19-50
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:20:19-50
 activity#com.example.yoong.se_expensetracker.SettingsActivity
-ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:21:9-63
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:21:9-54
 	android:name
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:21:19-51
-uses-sdk
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\5560647347d50cb6b9ba7b20b8933694\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\5560647347d50cb6b9ba7b20b8933694\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46d4cd0a13c44f2e4277156bbc2d58b6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46d4cd0a13c44f2e4277156bbc2d58b6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f9dbc839f9e6859e896a67e6e51b3516\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f9dbc839f9e6859e896a67e6e51b3516\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4a103e7137b37494a0991df1e6112b70\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4a103e7137b37494a0991df1e6112b70\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a774decf231eac36b846794ad792b7a5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a774decf231eac36b846794ad792b7a5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\a3895d452bec8e4fb2887b55f05611ec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\a3895d452bec8e4fb2887b55f05611ec\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fdec0f030b1066b09bdf72f9c1d8d28e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fdec0f030b1066b09bdf72f9c1d8d28e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\23e9dbdc1524c833c4d40172e177f0b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\23e9dbdc1524c833c4d40172e177f0b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\282bb94a3c9da9cbdf96bfc06b7d2f77\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\282bb94a3c9da9cbdf96bfc06b7d2f77\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6c8865c78b5f5e8215a743cea66e3ff4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6c8865c78b5f5e8215a743cea66e3ff4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\c66b88d95da86f18db79e73e3f78b3e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\c66b88d95da86f18db79e73e3f78b3e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\98b5cec79e72088c64399a6884dbb597\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\98b5cec79e72088c64399a6884dbb597\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\63ed49d823e379fb240be87873588db9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\63ed49d823e379fb240be87873588db9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d1f1c5c782682ea90e373449f1d19a18\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d1f1c5c782682ea90e373449f1d19a18\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\a0e17448bdaa168fb08db0d63e76a8d9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\a0e17448bdaa168fb08db0d63e76a8d9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\837b38247f9e08e49052ae31934d6d5f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\837b38247f9e08e49052ae31934d6d5f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\01f03e7e36de655c3b2f7192c132e9ba\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\01f03e7e36de655c3b2f7192c132e9ba\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a6d91051da442d157f5648b9ac856b6a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a6d91051da442d157f5648b9ac856b6a\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c92281b4c73e4c937cdcf060e45ee08\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c92281b4c73e4c937cdcf060e45ee08\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\835ae44bcbac3e01ccc98d6cb8852bfc\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\835ae44bcbac3e01ccc98d6cb8852bfc\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-=======
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8b2b3231d9c694e7f3ef660cc47be71a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dbc5c5cd793f837668e31790eeafe863\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ce68ad1328cee1055292c4454e4a45a\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dd18f5221a8e43b45daa6cc2c6336234\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d8be23d23d86033e19d41a9b7548d16d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\97a7e02e7ad63dabf75603184613b07b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7242e6b5589aa9e7162ff108043af11e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2f53d48c6a7b05b428c4d6021e7700aa\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6c21e701e79f1843e73b2c2c7e321e97\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\dad81afac59ee336d21d77fa705571e6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b2fc8fbe39584baeb296728afd34de38\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4a5d6c5a7de168664c3122c6b896d144\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c0323679a37505fb2be645da3afd26b5\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bdda73540ceb65117f13687cebc66350\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\e077afaa0b08c0d6c12b0eaf4dbd0be9\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\4b5c47dec5b50644b8c068fcb3f6bfa6\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6fd582f60367877c3c5335662d99f4f4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4f06ee58fa7c2815ee2eb428a1d6bcaa\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1752917214f6ef0cb5fd73ab1f5026ac\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\433355005b0f4c2bf5ebe0866f4f3f82\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-	package
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:3:5-50
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-	android:versionName
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-	android:versionCode
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:11-69
-application
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:5:5-23:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ce68ad1328cee1055292c4454e4a45a\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ce68ad1328cee1055292c4454e4a45a\AndroidManifest.xml:9:5-20
-	android:supportsRtl
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:10:9-35
-	android:label
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:8:9-41
-	android:roundIcon
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:9:9-54
-	android:icon
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:7:9-43
-	android:allowBackup
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:6:9-35
-	android:theme
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.yoong.se_expensetracker.MainActivity
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:12:9-18:20
-	android:name
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:12:19-47
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:13:13-17:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:14:17-69
-	android:name
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:14:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:16:17-77
-	android:name
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:16:27-74
-activity#com.example.yoong.se_expensetracker.IncomeActivity
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:19:9-52
-	android:name
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:19:19-49
-activity#com.example.yoong.se_expensetracker.ExpenseActivity
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:20:9-53
-	android:name
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:20:19-50
-activity#com.example.yoong.se_expensetracker.SettingsActivity
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:21:9-54
-	android:name
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:21:19-51
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:21:19-51
 activity#com.example.yoong.se_expensetracker.EntryDetailsActivity
-ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:22:9-67
+ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:22:9-67
 	android:name
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:22:19-55
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:22:19-55
 uses-sdk
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8b2b3231d9c694e7f3ef660cc47be71a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\8b2b3231d9c694e7f3ef660cc47be71a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dbc5c5cd793f837668e31790eeafe863\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\dbc5c5cd793f837668e31790eeafe863\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ce68ad1328cee1055292c4454e4a45a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ce68ad1328cee1055292c4454e4a45a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dd18f5221a8e43b45daa6cc2c6336234\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\dd18f5221a8e43b45daa6cc2c6336234\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d8be23d23d86033e19d41a9b7548d16d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d8be23d23d86033e19d41a9b7548d16d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\97a7e02e7ad63dabf75603184613b07b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\97a7e02e7ad63dabf75603184613b07b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7242e6b5589aa9e7162ff108043af11e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\7242e6b5589aa9e7162ff108043af11e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2f53d48c6a7b05b428c4d6021e7700aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2f53d48c6a7b05b428c4d6021e7700aa\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6c21e701e79f1843e73b2c2c7e321e97\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\6c21e701e79f1843e73b2c2c7e321e97\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\dad81afac59ee336d21d77fa705571e6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\dad81afac59ee336d21d77fa705571e6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b2fc8fbe39584baeb296728afd34de38\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\b2fc8fbe39584baeb296728afd34de38\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4a5d6c5a7de168664c3122c6b896d144\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\4a5d6c5a7de168664c3122c6b896d144\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c0323679a37505fb2be645da3afd26b5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c0323679a37505fb2be645da3afd26b5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bdda73540ceb65117f13687cebc66350\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\bdda73540ceb65117f13687cebc66350\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\e077afaa0b08c0d6c12b0eaf4dbd0be9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\e077afaa0b08c0d6c12b0eaf4dbd0be9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\4b5c47dec5b50644b8c068fcb3f6bfa6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\4b5c47dec5b50644b8c068fcb3f6bfa6\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6fd582f60367877c3c5335662d99f4f4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6fd582f60367877c3c5335662d99f4f4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4f06ee58fa7c2815ee2eb428a1d6bcaa\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\4f06ee58fa7c2815ee2eb428a1d6bcaa\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1752917214f6ef0cb5fd73ab1f5026ac\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1752917214f6ef0cb5fd73ab1f5026ac\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\433355005b0f4c2bf5ebe0866f4f3f82\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yoong\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\433355005b0f4c2bf5ebe0866f4f3f82\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\5560647347d50cb6b9ba7b20b8933694\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\5560647347d50cb6b9ba7b20b8933694\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46d4cd0a13c44f2e4277156bbc2d58b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\46d4cd0a13c44f2e4277156bbc2d58b6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f9dbc839f9e6859e896a67e6e51b3516\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\f9dbc839f9e6859e896a67e6e51b3516\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4a103e7137b37494a0991df1e6112b70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\4a103e7137b37494a0991df1e6112b70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a774decf231eac36b846794ad792b7a5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a774decf231eac36b846794ad792b7a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\a3895d452bec8e4fb2887b55f05611ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\a3895d452bec8e4fb2887b55f05611ec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fdec0f030b1066b09bdf72f9c1d8d28e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fdec0f030b1066b09bdf72f9c1d8d28e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\23e9dbdc1524c833c4d40172e177f0b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\23e9dbdc1524c833c4d40172e177f0b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\282bb94a3c9da9cbdf96bfc06b7d2f77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\282bb94a3c9da9cbdf96bfc06b7d2f77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6c8865c78b5f5e8215a743cea66e3ff4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6c8865c78b5f5e8215a743cea66e3ff4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\c66b88d95da86f18db79e73e3f78b3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\c66b88d95da86f18db79e73e3f78b3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\98b5cec79e72088c64399a6884dbb597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\98b5cec79e72088c64399a6884dbb597\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\63ed49d823e379fb240be87873588db9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\63ed49d823e379fb240be87873588db9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d1f1c5c782682ea90e373449f1d19a18\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d1f1c5c782682ea90e373449f1d19a18\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\a0e17448bdaa168fb08db0d63e76a8d9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-framework-1.1.0.aar\a0e17448bdaa168fb08db0d63e76a8d9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\837b38247f9e08e49052ae31934d6d5f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\db-1.1.0.aar\837b38247f9e08e49052ae31934d6d5f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\01f03e7e36de655c3b2f7192c132e9ba\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\01f03e7e36de655c3b2f7192c132e9ba\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a6d91051da442d157f5648b9ac856b6a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a6d91051da442d157f5648b9ac856b6a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c92281b4c73e4c937cdcf060e45ee08\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9c92281b4c73e4c937cdcf060e45ee08\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\835ae44bcbac3e01ccc98d6cb8852bfc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\yansh\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\835ae44bcbac3e01ccc98d6cb8852bfc\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\yoong\GitHub\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
->>>>>>> 133766cdc673843c64ab167ca262a3331a208815
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\yansh\Desktop\Se proj\SE-ExpenseTracker\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
