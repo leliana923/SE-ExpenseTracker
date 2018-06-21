@@ -13,7 +13,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="50dp"
         android:text="Category"
-        android:textSize="24dp" />
+        android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
 
     <TextView
         android:id="@+id/entry_amount"
@@ -24,6 +26,8 @@
         android:layout_marginEnd="52dp"
         android:text="amount"
         android:textSize="24dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="0dp" />
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\yansh\\Desktop\\Se proj\\SE-ExpenseTracker\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "C:\\Users\\yoong\\GitHub\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\yansh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46d4cd0a13c44f2e4277156bbc2d58b6\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\yoong\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\dbc5c5cd793f837668e31790eeafe863\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
