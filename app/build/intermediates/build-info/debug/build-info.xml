@@ -2,33 +2,30 @@
 <instant-run
     abi="armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="420dpi"
     format="10"
     plugin-version="3.1.3"
-    timestamp="1529601377421"
+    timestamp="1529605542268"
     token="-445519962069017055"
-    verifier="METHOD_ADDED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2184" />
+        duration="1821" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="51" />
     <task
         name="instant-run-transform"
-        duration="45" />
+        duration="53" />
     <task
         name="verifier"
-        duration="25" />
+        duration="12" />
 
     <artifact
-        location="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
@@ -96,22 +93,22 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1529600782543"
-        verifier="INSTANT_RUN_DISABLED" >
-        <artifact
-            location="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1529601377421"
-        verifier="METHOD_ADDED" >
+        timestamp="1529605386721"
+        verifier="FIELD_TYPE_CHANGE" >
         <artifact
             location="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1529605542268"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\yoong\GitHub\SE-ExpenseTracker\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

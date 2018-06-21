@@ -11,9 +11,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import static com.example.yoong.se_expensetracker.MainActivity.currency;
 import static com.example.yoong.se_expensetracker.MainActivity.currentDate;
 import static com.example.yoong.se_expensetracker.MainActivity.db;
-import static com.example.yoong.se_expensetracker.SettingsActivity.currency;
 
 public class IncomeActivity extends AppCompatActivity {
 
@@ -48,7 +48,17 @@ public class IncomeActivity extends AppCompatActivity {
 
         addEntry();
         curView = findViewById(R.id.currencyView);
-        curView.setText(currency);
+        /*try {
+            currency = db.currencyDao().getSelectedCurrency().getCurrency();
+        }
+        catch (NullPointerException e){
+            currency = "RM";
+        }*/
+        if(currency!=null) {
+            curView.setText(currency);
+        } else {
+            curView.setText("RM");
+        }
         editAmount = findViewById(R.id.edit_amount);
 
     }

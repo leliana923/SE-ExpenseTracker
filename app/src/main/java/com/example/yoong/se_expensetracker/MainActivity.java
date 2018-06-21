@@ -22,8 +22,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import static com.example.yoong.se_expensetracker.SettingsActivity.currency;
-
 public class MainActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener{
 
     //recyclerview
@@ -49,6 +47,8 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     //database
     public static AppDatabase db;
 
+    public static String currency;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,8 +56,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         recyclerView = findViewById(R.id.expense_log);
         dateView = findViewById(R.id.date_view);
-        curView = findViewById(R.id.currencyView); //not working
-        curView.setText(currency); //not working
+        curView = findViewById(R.id.currencyView);
         bal = findViewById(R.id.balance_view);
 
         currentDate = new SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(new Date());
@@ -67,12 +66,17 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         //List<Entry> entries = db.entryDao().getAllEntries();
 
-        try {
+        /*try {
             currency = db.currencyDao().getSelectedCurrency().getCurrency();
         }
         catch (NullPointerException e){
             currency = "RM";
-        }
+        }*/
+        //curView.setText(currency);
+
+
+        curView.setText("RM");
+
 
         setMainPage();
 
@@ -133,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     @Override
     protected void onResume() {
         super.onResume();
-
+        curView.setText(currency);
         setMainPage();
     }
 
