@@ -16,7 +16,7 @@ public class CustomOnItemSelectedListener extends MainActivity implements OnItem
                 currencySymbol = "Lek";
                 break;
             case 1:
-                currencySymbol = "؋";
+                currencySymbol = "$";
                 break;
             case 2:
                 currencySymbol = "$";
@@ -25,49 +25,49 @@ public class CustomOnItemSelectedListener extends MainActivity implements OnItem
                 currencySymbol = "$";
                 break;
             case 4:
-                currencySymbol = "$";
-                break;
-            case 5:
                 currencySymbol = "лв";
                 break;
-            case 6:
+            case 5:
                 currencySymbol = "R$";
                 break;
-            case 7:
+            case 6:
                 currencySymbol = "$";
                 break;
-            case 8:
+            case 7:
                 currencySymbol = "៛";
+                break;
+            case 8:
+                currencySymbol = "$";
                 break;
             case 9:
                 currencySymbol = "$";
                 break;
             case 10:
-                currencySymbol = "$";
-                break;
-            case 11:
                 currencySymbol = "¥";
                 break;
-            case 12:
+            case 11:
                 currencySymbol = "$";
                 break;
-            case 13:
+            case 12:
                 currencySymbol = "₡";
                 break;
-            case 14:
+            case 13:
                 currencySymbol = "kn";
                 break;
-            case 15:
+            case 14:
                 currencySymbol = "₱";
                 break;
-            case 16:
+            case 15:
                 currencySymbol = "Kč";
                 break;
-            case 17:
+            case 16:
                 currencySymbol = "kr";
                 break;
-            case 18:
+            case 17:
                 currencySymbol = "£";
+                break;
+            case 18:
+                currencySymbol = "€";
                 break;
             case 19:
                 currencySymbol = "$";
