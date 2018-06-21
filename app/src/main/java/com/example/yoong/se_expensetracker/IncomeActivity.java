@@ -21,6 +21,7 @@ public class IncomeActivity extends AppCompatActivity {
     Spinner chooseCat;
     TextView curView;
     String category;
+    ArrayAdapter<String> mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +29,7 @@ public class IncomeActivity extends AppCompatActivity {
         setContentView(R.layout.income_layout);
 
         chooseCat = findViewById(R.id.choose_Category);
-        ArrayAdapter<String> mAdapter =
-                new ArrayAdapter<String>(IncomeActivity.this, android.R.layout.simple_list_item_1,
+       mAdapter = new ArrayAdapter<String>(IncomeActivity.this, android.R.layout.simple_list_item_1,
                         getResources().getStringArray(R.array.incomeCategory));
         mAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         chooseCat.setAdapter(mAdapter);
@@ -37,29 +37,21 @@ public class IncomeActivity extends AppCompatActivity {
 
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int i, long id) {
-                if (i == 0) {
-                    category = "Income";
-                }
-                if (i == 1) {
-                    category = "Savings";
-                }
-                if (i == 2) {
-                    category = "Allowance";
-                }
+                category = mAdapter.getItem(i);
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
-        minusButton();
-        curView = (TextView) findViewById(R.id.currencyView);
+        addEntry();
+        curView = findViewById(R.id.currencyView);
         //curView.setText(curview);
-        editAmount = (EditText) findViewById(R.id.edit_amount);
+        editAmount = findViewById(R.id.edit_amount);
 
     }
 
-    private void minusButton() {
+    private void addEntry() {
 
         confirmBtn = findViewById(R.id.cfm_btn);
         confirmBtn.setOnClickListener(new View.OnClickListener() {
@@ -69,13 +61,14 @@ public class IncomeActivity extends AppCompatActivity {
                     Toast.makeText(IncomeActivity.this, "You did not enter a number", Toast.LENGTH_SHORT).show();
                     return;
                 }else {
-                    String amount = editAmount.toString();
+                    String amount = editAmount.getText().toString();
                     Entry entry = new Entry();
                     entry.setCategory(category);
                     entry.setDate(currentDate);
-                    entry.setSymbol("+");
+                    entry.setType("INCOME");
                     entry.setAmount(Double.parseDouble(amount));
                     db.entryDao().insertAll(entry);
+
                 }
                 finish();
             }

@@ -44,8 +44,8 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
 
         holder.title.setText(entries.get(position).getCategory());
         holder.amount.setText(Double.toString(entries.get(position).getAmount()));
-        holder.id.setText(entries.get(position).getUid());
-        holder.type.setText(entries.get(position).getSymbol());
+        holder.id.setText(Integer.toString(entries.get(position).getUid()));
+        holder.type.setText(entries.get(position).getType());
 
         holder.parentLayout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -55,10 +55,12 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
                 Intent intent = new Intent( mContext, EntryDetailsActivity.class);
                 intent.putExtra("entry_id", entries.get(position).getUid());
                 intent.putExtra( "entry_category", entries.get(position).getCategory());
+                intent.putExtra( "entry_type", entries.get(position).getType());
                 intent.putExtra( "entry_amount", entries.get(position).getAmount());
+                intent.putExtra( "entry_date", entries.get(position).getDate());
+
+
                 mContext.startActivity(intent);
-
-
 
             }
         });
@@ -86,6 +88,7 @@ public class LogViewAdapter extends RecyclerView.Adapter<LogViewAdapter.ViewHold
             amount =  itemView.findViewById(R.id.entry_amount);
             id = itemView.findViewById(R.id.entry_id);
             type = itemView.findViewById(R.id.entry_type);
+
             parentLayout = itemView.findViewById(R.id.logLayout);
         }
     }

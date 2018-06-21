@@ -3,14 +3,17 @@ package com.example.yoong.se_expensetracker;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.Ignore;
 import android.arch.persistence.room.PrimaryKey;
 
 @Entity
 public class Entry {
 
+    @Ignore
     public Entry(){
 
     }
+
 
     public Entry(String category, String date, String type, double amount) {
         this.category = category;
@@ -58,12 +61,12 @@ public class Entry {
         this.date = date;
     }
 
-    public String getSymbol() {
+    public String getType() {
         return type;
     }
 
-    public void setSymbol(String symbol) {
-        this.type = symbol;
+    public void setType(String type) {
+        this.type = type;
     }
 
     public double getAmount() {

@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     RecyclerView recyclerView;
     LogViewAdapter adapter;
 
+    //date
     public static String currentDate;
 
     //buttons
@@ -107,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         c.set(Calendar.DAY_OF_MONTH, dayOfMonth);
 
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-        String currentDate = df.format(c.getTime());
+        currentDate = df.format(c.getTime());
         String fulldate = DateFormat.getDateInstance(DateFormat.FULL).format(c.getTime());
 
         dateView.setText(fulldate);
@@ -116,7 +117,11 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     @Override
     protected void onResume() {
         super.onResume();
+
+
         List<Entry> entries = db.entryDao().getAllEntries();
+
+
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         adapter = new LogViewAdapter(entries, this);
         recyclerView.setAdapter(adapter);
