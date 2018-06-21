@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\yansh\\Desktop\\Se proj\\SE-ExpenseTracker\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\e61e6f729fa58454dbf9579b07d0f703\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\yansh\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\d1f1c5c782682ea90e373449f1d19a18\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5b56381c10b6573037eaf108e3de4a4d\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\yansh\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\46d4cd0a13c44f2e4277156bbc2d58b6\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
