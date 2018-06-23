@@ -18,6 +18,7 @@ public class SettingsActivity extends AppCompatActivity {
     private Button submitBtn;
     ArrayAdapter<String> mAdapter;
     private static String currentCurrency;
+    private Currency c = new Currency(currency);
 
 
     //public static String currency;
@@ -59,12 +60,12 @@ public class SettingsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //Currency c = new Currency(currency);
-                //db.currencyDao().deleteCurrency(c);
+
+                db.currencyDao().deleteCurrency(c);
                 currency = currencySymbol;
                 currentCurrency = selectCurrency.getSelectedItem().toString();
-                //c = new Currency(currency);
-                //db.currencyDao().insertCurrency(c);
+                c = new Currency(currency);
+                db.currencyDao().insertCurrency(c);
 
                 Toast.makeText(SettingsActivity.this,
                         "Currency type " +

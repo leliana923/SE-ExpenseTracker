@@ -54,11 +54,11 @@ public class ExpenseActivity extends AppCompatActivity {
         catch (NullPointerException e){
             currency = "RM";
         }*/
-        if(currency!=null) {
+        //if(currency!=null) {
             curView.setText(currency);
-        } else {
-            curView.setText("RM");
-        }
+        //} else {
+        //    curView.setText("RM");
+        //}
         editAmount = findViewById(R.id.edit_amount);
 
 
