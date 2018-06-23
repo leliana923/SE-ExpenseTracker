@@ -18,6 +18,8 @@ public class CurrencyDao_Impl implements CurrencyDao {
 
   private final EntityDeletionOrUpdateAdapter __deletionAdapterOfCurrency;
 
+  private final EntityDeletionOrUpdateAdapter __updateAdapterOfCurrency;
+
   public CurrencyDao_Impl(RoomDatabase __db) {
     this.__db = __db;
     this.__insertionAdapterOfCurrency = new EntityInsertionAdapter<Currency>(__db) {
@@ -47,6 +49,23 @@ public class CurrencyDao_Impl implements CurrencyDao {
         stmt.bindLong(1, value.getCid());
       }
     };
+    this.__updateAdapterOfCurrency = new EntityDeletionOrUpdateAdapter<Currency>(__db) {
+      @Override
+      public String createQuery() {
+        return "UPDATE OR ABORT `Currency` SET `cid` = ?,`currency` = ? WHERE `cid` = ?";
+      }
+
+      @Override
+      public void bind(SupportSQLiteStatement stmt, Currency value) {
+        stmt.bindLong(1, value.getCid());
+        if (value.getCurrency() == null) {
+          stmt.bindNull(2);
+        } else {
+          stmt.bindString(2, value.getCurrency());
+        }
+        stmt.bindLong(3, value.getCid());
+      }
+    };
   }
 
   @Override
@@ -65,6 +84,17 @@ public class CurrencyDao_Impl implements CurrencyDao {
     __db.beginTransaction();
     try {
       __deletionAdapterOfCurrency.handle(currency);
+      __db.setTransactionSuccessful();
+    } finally {
+      __db.endTransaction();
+    }
+  }
+
+  @Override
+  public void updateCurrency(Currency currency) {
+    __db.beginTransaction();
+    try {
+      __updateAdapterOfCurrency.handle(currency);
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();

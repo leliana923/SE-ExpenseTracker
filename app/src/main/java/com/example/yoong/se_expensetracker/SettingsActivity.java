@@ -18,9 +18,8 @@ public class SettingsActivity extends AppCompatActivity {
     private Button submitBtn;
     ArrayAdapter<String> mAdapter;
     private static String currentCurrency;
+    private Currency currencyTemp;
 
-
-    //public static String currency;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +29,8 @@ public class SettingsActivity extends AppCompatActivity {
         if(currentCurrency==null){
             currentCurrency = "Malaysia Ringgit";
         }
+
+        currencyTemp = db.currencyDao().getSelectedCurrency();
 
         addListenerOnButton();
         addListenerOnSpinnerItemSelection();
@@ -59,12 +60,12 @@ public class SettingsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                //Currency c = new Currency(currency);
-                //db.currencyDao().deleteCurrency(c);
                 currency = currencySymbol;
                 currentCurrency = selectCurrency.getSelectedItem().toString();
-                //c = new Currency(currency);
-                //db.currencyDao().insertCurrency(c);
+
+                // update current currency
+                currencyTemp.setCurrency(currency);
+                db.currencyDao().updateCurrency(currencyTemp);
 
                 Toast.makeText(SettingsActivity.this,
                         "Currency type " +

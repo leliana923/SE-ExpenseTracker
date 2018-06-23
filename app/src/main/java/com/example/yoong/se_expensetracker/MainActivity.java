@@ -66,16 +66,17 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
 
         //List<Entry> entries = db.entryDao().getAllEntries();
 
-        /*try {
+        try {
             currency = db.currencyDao().getSelectedCurrency().getCurrency();
         }
         catch (NullPointerException e){
-            currency = "RM";
-        }*/
-        //curView.setText(currency);
+            Currency currency = new Currency("RM");
+            db.currencyDao().insertCurrency(currency);
+        }
+        curView.setText(currency);
 
 
-        curView.setText("RM");
+        //curView.setText("RM");
 
 
         setMainPage();
