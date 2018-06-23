@@ -20,7 +20,6 @@ public class SettingsActivity extends AppCompatActivity {
     private static String currentCurrency;
     private Currency currencyTemp;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

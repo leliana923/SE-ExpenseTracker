@@ -75,10 +75,6 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
         }
         curView.setText(currency);
 
-
-        //curView.setText("RM");
-
-
         setMainPage();
 
         addincome = findViewById(R.id.add_income_btn);
