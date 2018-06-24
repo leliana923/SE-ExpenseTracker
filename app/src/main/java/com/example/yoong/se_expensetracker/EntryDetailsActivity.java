@@ -13,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import static com.example.yoong.se_expensetracker.MainActivity.db;
+import static com.example.yoong.se_expensetracker.MainActivity.df;
 
 public class EntryDetailsActivity extends AppCompatActivity {
 
@@ -122,7 +123,7 @@ public class EntryDetailsActivity extends AppCompatActivity {
     private void setEntryDetails(int entryID, String entryCategory, double entryAmount, String entryType, String entryDate){
         entry_id = entryID;
         category = entryCategory;
-        edit_amount.setText(Double.toString(entryAmount));
+        edit_amount.setText(df.format(entryAmount));
         entry_type = entryType;
         entry_date = entryDate;
 
