@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">Daily Expense Tracker</string>
-    <string name="add">+</string>
-    <string name="minus">-</string>
     <string-array name="incomeCategory">
         <item>Salary</item>
         <item>Allowance</item>
@@ -18,7 +16,6 @@
     </string-array>
 
     <string name="currency_prompt">Choose a currency</string>
-    <string name="Set">Set</string>
 
     <string-array name="currency_arrays">
         <item>Albania Lek</item>

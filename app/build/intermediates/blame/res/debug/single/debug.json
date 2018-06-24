@@ -620,6 +620,10 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5b56381c10b6573037eaf108e3de4a4d\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_manual_layout.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\src\\main\\res\\layout\\manual_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5b56381c10b6573037eaf108e3de4a4d\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -654,6 +658,10 @@
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5b56381c10b6573037eaf108e3de4a4d\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_manual_content.xml.flat",
+        "source": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\src\\main\\res\\layout\\manual_content.xml"
     },
     {
         "merged": "C:\\Users\\HP\\AndroidStudioProjects\\SE-ExpenseTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d15a61e71198439e43f531803ae34ac2\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5b56381c10b6573037eaf108e3de4a4d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\305a12dbd839e7875810391b69d42dab\AndroidManifest.xml:2:1-11:12
@@ -24,25 +24,25 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\HP\.gradle\cac
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fb17961db1acfa59bb3e794a5e77f640\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\97fc4cdb20d79fd74c79bd2b1b9e65bb\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\52c3299e4c4258193ffb571df21d3ca6\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:3:5-50
 		INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:5:5-23:19
+ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:5:5-24:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\305a12dbd839e7875810391b69d42dab\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\HP\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\305a12dbd839e7875810391b69d42dab\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -87,6 +87,10 @@ activity#com.example.yoong.se_expensetracker.EntryDetailsActivity
 ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:22:9-67
 	android:name
 		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:22:19-55
+activity#com.example.yoong.se_expensetracker.ManualActivity
+ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:23:9-61
+	android:name
+		ADDED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml:23:19-49
 uses-sdk
 INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\HP\AndroidStudioProjects\SE-ExpenseTracker\app\src\main\AndroidManifest.xml

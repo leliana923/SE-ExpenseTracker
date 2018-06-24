@@ -20,6 +20,7 @@
         <activity android:name=".ExpenseActivity" />
         <activity android:name=".SettingsActivity" />
         <activity android:name=".EntryDetailsActivity"></activity>
+        <activity android:name=".ManualActivity"></activity>
     </application>
 
 </manifest>

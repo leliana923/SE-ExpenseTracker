@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
     //buttons
     Button addincome, addexpense;
     ImageButton settingsBtn, calendarBtn;
+    ImageButton manualBtn;
 
     //views
     TextView dateView;
@@ -108,6 +109,14 @@ public class MainActivity extends AppCompatActivity implements DatePickerDialog.
                 DialogFragment datePicker = new DatePickerFragment();
                 datePicker.show(getSupportFragmentManager(), "date picker");
 
+            }
+        });
+
+        manualBtn = findViewById(R.id.help_btn);
+        manualBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ManualActivity.class));
             }
         });
 

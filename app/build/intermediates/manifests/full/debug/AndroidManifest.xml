@@ -28,6 +28,7 @@
         <activity android:name="com.example.yoong.se_expensetracker.ExpenseActivity" />
         <activity android:name="com.example.yoong.se_expensetracker.SettingsActivity" />
         <activity android:name="com.example.yoong.se_expensetracker.EntryDetailsActivity" />
+        <activity android:name="com.example.yoong.se_expensetracker.ManualActivity" />
     </application>
 
 </manifest>
