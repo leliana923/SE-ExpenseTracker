@@ -48,17 +48,8 @@ public class IncomeActivity extends AppCompatActivity {
 
         addEntry();
         curView = findViewById(R.id.currencyView);
-        /*try {
-            currency = db.currencyDao().getSelectedCurrency().getCurrency();
-        }
-        catch (NullPointerException e){
-            currency = "RM";
-        }*/
-        //if(currency!=null) {
-            curView.setText(currency);
-        //} else {
-        //    curView.setText("RM");
-        //}
+        curView.setText(currency);
+
         editAmount = findViewById(R.id.edit_amount);
 
     }

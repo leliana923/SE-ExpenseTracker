@@ -51,7 +51,6 @@ public class PdfRendererFragment extends Fragment implements View.OnClickListene
         mButtonNext.setOnClickListener(this);
 
         mPageIndex = 0;
-        // If there is a savedInstanceState (screen orientations, etc.), we restore the page index.
         if (null != savedInstanceState) {
             mPageIndex = savedInstanceState.getInt(STATE_CURRENT_PAGE_INDEX, 0);
         }
@@ -142,10 +141,6 @@ public class PdfRendererFragment extends Fragment implements View.OnClickListene
         mButtonPrevious.setEnabled(0 != index);
         mButtonNext.setEnabled(index + 1 < pageCount);
         getActivity().setTitle("User Manual");
-    }
-
-    public int getPageCount() {
-        return mPdfRenderer.getPageCount();
     }
 
     @Override
